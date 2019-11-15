@@ -1,10 +1,10 @@
 .dot {
-    height: 1rem;
-    width:  1rem;
+    height: 1%;
+    width:  1%;
     background-color: #e21919;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 1%;
   }
 
   .custom-b{
@@ -13,32 +13,32 @@
   }
 
   .label-title-datcli{
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.1%;
     font-size: small; 
     color: #8385b4; 
   }
 
   .label-datcli{
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.1%;
     font-size: small; 
     color: black; 
     font-weight: 450;
   }
 
   .td-fixed{
-    width: 7rem;
+    width: 7%;
   }
 
   .td-seg{
-    width: 5rem;
+    width: 5%;
   }
 
   .td-tip{
-    width: 8rem;
+    width: 8%;
   }
 
   .td-naci{
-    width: 9.5rem;
+    width: 9.5%;
   }
 
   .boton-fixed1{
@@ -52,9 +52,9 @@
   }
 
   .fixed-bar{
-    padding: 1rem 2rem 3rem 3rem;
+    padding: 1% 2% 3% 3%;
     background-color: #F4F8F8;
-    margin-top: 2rem;
+    margin-top: 2%;
     width: 100%;
   }
 
@@ -64,7 +64,7 @@
     overflow: hidden;
     z-index: 10;
     width: 100%;
-    padding: 0.5rem 2rem 1rem 3rem;
+    padding: 0.5% 2% 1% 3%;
   }
 
 
