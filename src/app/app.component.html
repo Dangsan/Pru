@@ -1,21 +1,109 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-light" style="width: 100%;">
+  <a class="navbar-brand" href="#" style="padding: 0 1rem;"> <img  src="assets/Logo final Protecta Security-01.png" alt="" srcset=""> &nbsp; <b> Cliente 360</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown" style="margin-right: 2rem;">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #1e044d">
+          Usuarios
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Opcion 1</a>
+          <a class="dropdown-item" href="#">Opcion 2</a>
+        </div>
+      </li>   
+      <li class="nav-item dropdown" style="margin-right: 2rem;">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #1e044d">
+            Clientes
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Opcion 1</a>
+            <a class="dropdown-item" href="#">Opcion 2</a>
+          </div>
+        </li>      
+    </ul>
+    <div  style="background-color:#B2B7B7;font-weight:500; font-size:larger; height: 4rem; width: 4rem; text-align: center; line-height: 4rem; font-weight: larger; color: white;">      
+        D
+    </div>
+  </div>
+
+</nav>
+
+    <div style="padding: 1rem 2rem 3rem 3rem;">
+      
+      <td class="custom-td">
+        <label style="margin-bottom: 0.1rem;font-size: x-small; color: #8385b4;">Rol</label> <br>
+        <select class="custom-select" style="width: 95%;border-radius: 0%;border-color: #c3c4e1;font-size: smaller;">
+          <option value="0">Todos</option>
+          <option value="1">Contratante</option>
+          <option value="2">Asegurado</option>
+        </select>
+      </td>
+      <td class="custom-td">
+          <label style="margin-bottom: 0.1rem;font-size: x-small; color: #8385b4;">Tipo</label> <br>
+          
+          <select class="custom-select" style="width: 95%;border-radius: 0%;border-color: #c3c4e1;font-size: smaller;">
+            <option value="0" >Intermediario</option>
+            <option value="1">Contratante</option>
+            <option value="2">Asegurado</option>
+          </select>
+          
+      </td>
+      <td class="custom-td">
+          <label style="margin-bottom: 0.1rem;font-size: x-small; color: #8385b4;">Estado P&oacute;liza</label> <br>
+          <select class="custom-select" style="width: 95%;border-radius: 0%;border-color: #c3c4e1;font-size: smaller;">
+            <option value="0">Todos</option>
+            <option value="1">Contratante</option>
+            <option value="2">Asegurado</option>
+          </select>
+      </td>
+      <td class="custom-td">
+        <label style="margin-bottom: 0.1rem;font-size: x-small; color: #8385b4;">Segmento</label> <br>
+        <select class="custom-select" style="width: 95%;border-radius: 0%;border-color: #c3c4e1;font-size: smaller;">
+          <option value="0">Todos</option>
+          <option value="1">Contratante</option>
+          <option value="2">Asegurado</option>
+        </select>
+    </td>
+    <td class="custom-td">
+      <label style="margin-bottom: 0.1rem;font-size: x-small; color: #8385b4;">Buscar Por</label> <br>
+      <select class="custom-select" style="width: 95%;border-radius: 0%;border-color: #c3c4e1;font-size: smaller;">
+        <option value="0">N&deg; Doc</option>
+        <option value="1">Nombre</option>
+        <option value="2">Asegurado</option>
+      </select>
+   </td>
+   <td class="custom-td">
+    <label style="margin-bottom: 0.1rem;font-size: x-small; color: #8385b4;">Tipo de Documento</label> <br>
+    <select class="custom-select" style="width: 95%;border-radius: 0%;border-color: #c3c4e1;font-size: smaller;">
+      <option value="0">DNI</option>
+      <option value="1">Nombre</option>
+      <option value="2">Asegurado</option>
+    </select>
+  </td>
+  <td class="custom-td">
+    <label style="margin-bottom: 0.1rem;font-size: x-small; color: #8385b4;">Tipo de Persona</label> <br>
+    <select class="custom-select" style="width: 100%;border-radius: 0%;border-color: #d1d2e8;color: #d1d2e8; font-size: smaller;">
+      <option value="0">Persona Natural</option>
+      <option value="1">Nombre</option>
+      <option value="2">Asegurado</option>
+    </select>
+  </td>
+  <td class="custom-td" style="padding-left: 1%;">
+    <label style="margin-bottom: 0.1rem;font-size: x-small; color: #27276D; ">N&uacute;mero de Documento</label> <br>
+    <input style="border-color: #acacc7; height:2.1rem" type="text" >
+  </td>
+  <td class="custom-td" style="padding-right: 2rem;">
+     <br>
+     <button type="button" (click)="Buscar()" class="btn busqueda-button btn-block" >BUSCAR</button>
+  </td>
+      
+    <div>
+
 
 <router-outlet></router-outlet>
+
+
